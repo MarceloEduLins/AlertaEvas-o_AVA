@@ -1,0 +1,57 @@
+### Status geral / IA
+GET http://localhost:3000/api/system/status
+
+### Saúde
+GET http://localhost:3000/api/health
+
+### Estado atual da simulação
+GET http://localhost:3000/api/simulation
+
+### Avançar 1 dia
+POST http://localhost:3000/api/simulation/advance
+Content-Type: application/json
+
+{
+  "days": 1
+}
+
+### Avançar para o próximo evento
+POST http://localhost:3000/api/simulation/next-event
+
+### Reiniciar semestre
+POST http://localhost:3000/api/simulation/reset
+
+### Turmas
+GET http://localhost:3000/api/classes
+
+### Dashboard da turma
+GET http://localhost:3000/api/classes/cc1a/dashboard
+
+### Perfil completo da aluna-foco
+GET http://localhost:3000/api/students/s1/profile
+
+### Registrar falta manualmente
+PATCH http://localhost:3000/api/students/s1/subjects/fil
+Content-Type: application/json
+
+{
+  "absences": 9
+}
+
+### Prévia dos e-mails atuais
+GET http://localhost:3000/api/students/s1/notifications/preview
+
+### Clustering não supervisionado
+GET http://localhost:3000/api/classes/cc1a/clusters
+
+### Histórico de notificações
+GET http://localhost:3000/api/notifications
+
+
+### Avançar 7 dias
+POST http://localhost:3000/api/simulation/advance
+Content-Type: application/json
+
+{
+  "days": 7
+}

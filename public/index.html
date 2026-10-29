@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Alerta Evasão • Monitoramento Preventivo</title>
+  <link rel="stylesheet" href="/css/base.css" />
+  <link rel="stylesheet" href="/css/dashboard.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brandmark">AE</div>
+        <div><strong>Alerta Evasão</strong><small>Monitoramento preventivo</small></div>
+      </div>
+      <nav id="nav">
+        <button class="nav-item active" data-view="simulation">Simulação do semestre</button>
+        <button class="nav-item" data-view="dashboard">Visão da turma</button>
+        <button class="nav-item" data-view="student">Aluno</button>
+        <button class="nav-item" data-view="alerts">Alertas proativos</button>
+        <button class="nav-item" data-view="clusters">Perfis por IA</button>
+        <button class="nav-item" data-view="architecture">Arquitetura</button>
+      </nav>
+      <div class="sidebar-note">
+        Dados demonstrativos. Os alertas apoiam o acompanhamento e não determinam evasão.
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <h1 id="pageTitle">Visão da turma</h1>
+          <p id="pageSubtitle">Presença, desempenho, AVA e alertas em uma única visão.</p>
+        </div>
+        <div class="top-actions">
+          <select id="classSelect" class="select"></select>
+          <span class="pill" id="versionPill">v5 • visual + IA</span>
+        </div>
+      </header>
+
+      <div id="toast" class="toast"></div>
+      <section id="view"></section>
+    </main>
+  </div>
+
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

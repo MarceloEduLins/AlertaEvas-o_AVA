@@ -1,0 +1,2564 @@
+{
+  "simulation": {
+    "startDate": "2026-02-23",
+    "endDate": "2026-06-26",
+    "currentDate": "2026-02-23",
+    "stepDays": 7,
+    "week": 1,
+    "processedAssessmentEvents": [],
+    "activityLog": [],
+    "notificationFingerprints": [],
+    "focusStudentId": "s1",
+    "processedCalendarEvents": [],
+    "lastAdvance": null
+  },
+  "classes": [
+    {
+      "id": "cc1a",
+      "name": "Ciência da Computação - 1º período",
+      "term": "2026/1",
+      "requiredAttendance": 75,
+      "lessonsPerDay": 5,
+      "studentIds": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10",
+        "s11",
+        "s12",
+        "s13",
+        "s14",
+        "s15",
+        "s16",
+        "s17",
+        "s18",
+        "s19",
+        "s20",
+        "s21",
+        "s22",
+        "s23",
+        "s24",
+        "s25",
+        "s26",
+        "s27",
+        "s28",
+        "s29",
+        "s30"
+      ],
+      "studentCount": 30
+    }
+  ],
+  "subjects": [
+    {
+      "id": "alg",
+      "name": "Raciocínio Algorítmico",
+      "workloadHours": 60,
+      "totalClasses": 72,
+      "teacher": "Prof. Helena Martins",
+      "color": "#315ed1",
+      "ras": [
+        {
+          "id": "RA1",
+          "name": "RA1",
+          "date": "2026-03-31",
+          "releaseDate": "2026-04-01",
+          "components": [
+            {
+              "type": "Prova",
+              "weight": 0.6
+            },
+            {
+              "type": "Lista prática",
+              "weight": 0.4
+            }
+          ]
+        },
+        {
+          "id": "RA2",
+          "name": "RA2",
+          "date": "2026-05-05",
+          "releaseDate": "2026-05-06",
+          "components": [
+            {
+              "type": "Prova",
+              "weight": 0.5
+            },
+            {
+              "type": "Desafio de código",
+              "weight": 0.5
+            }
+          ]
+        },
+        {
+          "id": "RA3",
+          "name": "RA3",
+          "date": "2026-06-09",
+          "releaseDate": "2026-06-10",
+          "components": [
+            {
+              "type": "Prova",
+              "weight": 0.7
+            },
+            {
+              "type": "Atividades",
+              "weight": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exp",
+      "name": "Experiência Criativa: Navegando na Computação",
+      "workloadHours": 90,
+      "totalClasses": 90,
+      "teacher": "Prof. José Eduardo",
+      "color": "#18a6c7",
+      "ras": [
+        {
+          "id": "RA1",
+          "name": "RA1",
+          "date": "2026-04-10",
+          "releaseDate": "2026-04-13",
+          "components": [
+            {
+              "type": "Projeto",
+              "weight": 0.7
+            },
+            {
+              "type": "Apresentação",
+              "weight": 0.3
+            }
+          ]
+        },
+        {
+          "id": "RA2",
+          "name": "RA2",
+          "date": "2026-05-22",
+          "releaseDate": "2026-05-25",
+          "components": [
+            {
+              "type": "Projeto",
+              "weight": 0.6
+            },
+            {
+              "type": "Entrega técnica",
+              "weight": 0.4
+            }
+          ]
+        },
+        {
+          "id": "RA3",
+          "name": "RA3",
+          "date": "2026-06-19",
+          "releaseDate": "2026-06-22",
+          "components": [
+            {
+              "type": "Projeto final",
+              "weight": 0.7
+            },
+            {
+              "type": "Apresentação final",
+              "weight": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fil",
+      "name": "Filosofia",
+      "workloadHours": 60,
+      "totalClasses": 54,
+      "teacher": "Prof. Mariana Lopes",
+      "color": "#8e65c2",
+      "ras": [
+        {
+          "id": "RA1",
+          "name": "RA1",
+          "date": "2026-04-17",
+          "releaseDate": "2026-04-20",
+          "components": [
+            {
+              "type": "Prova",
+              "weight": 0.7
+            },
+            {
+              "type": "Atividade reflexiva",
+              "weight": 0.3
+            }
+          ]
+        },
+        {
+          "id": "RA2",
+          "name": "RA2",
+          "date": "2026-06-12",
+          "releaseDate": "2026-06-15",
+          "components": [
+            {
+              "type": "Prova",
+              "weight": 0.6
+            },
+            {
+              "type": "Ensaio",
+              "weight": 0.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dec",
+      "name": "Descoberta e Evolução da Computação",
+      "workloadHours": 60,
+      "totalClasses": 72,
+      "teacher": "Prof. Renato Alves",
+      "color": "#de8b42",
+      "ras": [
+        {
+          "id": "RA1",
+          "name": "RA1",
+          "date": "2026-04-24",
+          "releaseDate": "2026-04-27",
+          "components": [
+            {
+              "type": "Prova",
+              "weight": 0.5
+            },
+            {
+              "type": "Seminário",
+              "weight": 0.5
+            }
+          ]
+        },
+        {
+          "id": "RA2",
+          "name": "RA2",
+          "date": "2026-06-05",
+          "releaseDate": "2026-06-08",
+          "components": [
+            {
+              "type": "Prova",
+              "weight": 0.5
+            },
+            {
+              "type": "Pesquisa",
+              "weight": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mod",
+      "name": "Modelagem de Fenômenos Físicos",
+      "workloadHours": 90,
+      "totalClasses": 90,
+      "teacher": "Prof. Ricardo Nunes",
+      "color": "#1b9a6a",
+      "ras": [
+        {
+          "id": "RA1",
+          "name": "RA1",
+          "date": "2026-04-08",
+          "releaseDate": "2026-04-09",
+          "components": [
+            {
+              "type": "Prova",
+              "weight": 0.6
+            },
+            {
+              "type": "Exercícios",
+              "weight": 0.4
+            }
+          ]
+        },
+        {
+          "id": "RA2",
+          "name": "RA2",
+          "date": "2026-05-13",
+          "releaseDate": "2026-05-14",
+          "components": [
+            {
+              "type": "Prova",
+              "weight": 0.6
+            },
+            {
+              "type": "Lista prática",
+              "weight": 0.4
+            }
+          ]
+        },
+        {
+          "id": "RA3",
+          "name": "RA3",
+          "date": "2026-06-17",
+          "releaseDate": "2026-06-18",
+          "components": [
+            {
+              "type": "Prova",
+              "weight": 0.7
+            },
+            {
+              "type": "Atividades",
+              "weight": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lea",
+      "name": "Leitura e Escrita Acadêmica",
+      "workloadHours": 60,
+      "totalClasses": 72,
+      "teacher": "Prof. Camila Rocha",
+      "color": "#c95d7a",
+      "ras": [
+        {
+          "id": "RA1",
+          "name": "RA1",
+          "date": "2026-04-30",
+          "releaseDate": "2026-05-04",
+          "components": [
+            {
+              "type": "Produção textual",
+              "weight": 0.7
+            },
+            {
+              "type": "Atividades",
+              "weight": 0.3
+            }
+          ]
+        },
+        {
+          "id": "RA2",
+          "name": "RA2",
+          "date": "2026-06-18",
+          "releaseDate": "2026-06-19",
+          "components": [
+            {
+              "type": "Artigo curto",
+              "weight": 0.7
+            },
+            {
+              "type": "Apresentação",
+              "weight": 0.3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "timetable": [
+    {
+      "day": 1,
+      "label": "Segunda",
+      "periods": [
+        "alg",
+        "alg",
+        "exp",
+        "exp",
+        "fil"
+      ],
+      "times": [
+        "07:30",
+        "08:20",
+        "09:20",
+        "10:10",
+        "11:00"
+      ]
+    },
+    {
+      "day": 2,
+      "label": "Terça",
+      "periods": [
+        "mod",
+        "mod",
+        "lea",
+        "lea",
+        "dec"
+      ],
+      "times": [
+        "07:30",
+        "08:20",
+        "09:20",
+        "10:10",
+        "11:00"
+      ]
+    },
+    {
+      "day": 3,
+      "label": "Quarta",
+      "periods": [
+        "exp",
+        "exp",
+        "exp",
+        "alg",
+        "fil"
+      ],
+      "times": [
+        "07:30",
+        "08:20",
+        "09:20",
+        "10:10",
+        "11:00"
+      ]
+    },
+    {
+      "day": 4,
+      "label": "Quinta",
+      "periods": [
+        "mod",
+        "mod",
+        "mod",
+        "dec",
+        "dec"
+      ],
+      "times": [
+        "07:30",
+        "08:20",
+        "09:20",
+        "10:10",
+        "11:00"
+      ]
+    },
+    {
+      "day": 5,
+      "label": "Sexta",
+      "periods": [
+        "alg",
+        "lea",
+        "lea",
+        "dec",
+        "fil"
+      ],
+      "times": [
+        "07:30",
+        "08:20",
+        "09:20",
+        "10:10",
+        "11:00"
+      ]
+    }
+  ],
+  "students": [
+    {
+      "id": "s1",
+      "name": "Ana Ribeiro",
+      "email": "ana_ribeiro@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "stable",
+      "focus": true,
+      "scenario": "proactive_demo",
+      "registration": "CC260001",
+      "semester": 1
+    },
+    {
+      "id": "s2",
+      "name": "João Silva",
+      "email": "joao_silva@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "attendance_risk",
+      "focus": false,
+      "registration": "CC260002",
+      "semester": 1
+    },
+    {
+      "id": "s3",
+      "name": "Maria Costa",
+      "email": "maria_costa@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "exam_difficulty",
+      "focus": false,
+      "registration": "CC260003",
+      "semester": 1
+    },
+    {
+      "id": "s4",
+      "name": "Lucas Almeida",
+      "email": "lucas_almeida@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "project_difficulty",
+      "focus": false,
+      "registration": "CC260004",
+      "semester": 1
+    },
+    {
+      "id": "s5",
+      "name": "Beatriz Souza",
+      "email": "beatriz_souza@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "ava_disengagement",
+      "focus": false,
+      "registration": "CC260005",
+      "semester": 1
+    },
+    {
+      "id": "s6",
+      "name": "Gabriel Martins",
+      "email": "gabriel_martins@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "stable",
+      "focus": false,
+      "registration": "CC260006",
+      "semester": 1
+    },
+    {
+      "id": "s7",
+      "name": "Camila Fernandes",
+      "email": "camila_fernandes@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "mixed_risk",
+      "focus": false,
+      "registration": "CC260007",
+      "semester": 1
+    },
+    {
+      "id": "s8",
+      "name": "Rafael Lima",
+      "email": "rafael_lima@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "attendance_risk",
+      "focus": false,
+      "registration": "CC260008",
+      "semester": 1
+    },
+    {
+      "id": "s9",
+      "name": "Mariana Santos",
+      "email": "mariana_santos@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "exam_difficulty",
+      "focus": false,
+      "registration": "CC260009",
+      "semester": 1
+    },
+    {
+      "id": "s10",
+      "name": "Pedro Henrique",
+      "email": "pedro_henrique@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "project_difficulty",
+      "focus": false,
+      "registration": "CC260010",
+      "semester": 1
+    },
+    {
+      "id": "s11",
+      "name": "Julia Carvalho",
+      "email": "julia_carvalho@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "ava_disengagement",
+      "focus": false,
+      "registration": "CC260011",
+      "semester": 1
+    },
+    {
+      "id": "s12",
+      "name": "Gustavo Oliveira",
+      "email": "gustavo_oliveira@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "stable",
+      "focus": false,
+      "registration": "CC260012",
+      "semester": 1
+    },
+    {
+      "id": "s13",
+      "name": "Larissa Mendes",
+      "email": "larissa_mendes@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "mixed_risk",
+      "focus": false,
+      "registration": "CC260013",
+      "semester": 1
+    },
+    {
+      "id": "s14",
+      "name": "Bruno Rocha",
+      "email": "bruno_rocha@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "attendance_risk",
+      "focus": false,
+      "registration": "CC260014",
+      "semester": 1
+    },
+    {
+      "id": "s15",
+      "name": "Isabela Freitas",
+      "email": "isabela_freitas@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "exam_difficulty",
+      "focus": false,
+      "registration": "CC260015",
+      "semester": 1
+    },
+    {
+      "id": "s16",
+      "name": "Mateus Gomes",
+      "email": "mateus_gomes@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "project_difficulty",
+      "focus": false,
+      "registration": "CC260016",
+      "semester": 1
+    },
+    {
+      "id": "s17",
+      "name": "Sofia Almeida",
+      "email": "sofia_almeida@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "ava_disengagement",
+      "focus": false,
+      "registration": "CC260017",
+      "semester": 1
+    },
+    {
+      "id": "s18",
+      "name": "Felipe Cardoso",
+      "email": "felipe_cardoso@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "stable",
+      "focus": false,
+      "registration": "CC260018",
+      "semester": 1
+    },
+    {
+      "id": "s19",
+      "name": "Letícia Barbosa",
+      "email": "leticia_barbosa@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "mixed_risk",
+      "focus": false,
+      "registration": "CC260019",
+      "semester": 1
+    },
+    {
+      "id": "s20",
+      "name": "Arthur Moreira",
+      "email": "arthur_moreira@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "attendance_risk",
+      "focus": false,
+      "registration": "CC260020",
+      "semester": 1
+    },
+    {
+      "id": "s21",
+      "name": "Manuela Dias",
+      "email": "manuela_dias@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "exam_difficulty",
+      "focus": false,
+      "registration": "CC260021",
+      "semester": 1
+    },
+    {
+      "id": "s22",
+      "name": "Caio Pereira",
+      "email": "caio_pereira@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "project_difficulty",
+      "focus": false,
+      "registration": "CC260022",
+      "semester": 1
+    },
+    {
+      "id": "s23",
+      "name": "Helena Castro",
+      "email": "helena_castro@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "ava_disengagement",
+      "focus": false,
+      "registration": "CC260023",
+      "semester": 1
+    },
+    {
+      "id": "s24",
+      "name": "Vinícius Teixeira",
+      "email": "vinicius_teixeira@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "stable",
+      "focus": false,
+      "registration": "CC260024",
+      "semester": 1
+    },
+    {
+      "id": "s25",
+      "name": "Nicolas Ferreira",
+      "email": "nicolas_ferreira@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "stable",
+      "focus": false,
+      "registration": "CC260025",
+      "semester": 1
+    },
+    {
+      "id": "s26",
+      "name": "Alice Monteiro",
+      "email": "alice_monteiro@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "attendance_risk",
+      "focus": false,
+      "registration": "CC260026",
+      "semester": 1
+    },
+    {
+      "id": "s27",
+      "name": "Daniel Azevedo",
+      "email": "daniel_azevedo@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "exam_difficulty",
+      "focus": false,
+      "registration": "CC260027",
+      "semester": 1
+    },
+    {
+      "id": "s28",
+      "name": "Laura Campos",
+      "email": "laura_campos@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "project_difficulty",
+      "focus": false,
+      "registration": "CC260028",
+      "semester": 1
+    },
+    {
+      "id": "s29",
+      "name": "Thiago Correia",
+      "email": "thiago_correia@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "ava_disengagement",
+      "focus": false,
+      "registration": "CC260029",
+      "semester": 1
+    },
+    {
+      "id": "s30",
+      "name": "Bianca Moraes",
+      "email": "bianca_moraes@exemplo.edu",
+      "classId": "cc1a",
+      "archetype": "mixed_risk",
+      "focus": false,
+      "registration": "CC260030",
+      "semester": 1
+    }
+  ],
+  "enrollments": [
+    {
+      "studentId": "s1",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s1",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s1",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s1",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s1",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s1",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s2",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s2",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s2",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s2",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s2",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s2",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s3",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s3",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s3",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s3",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s3",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s3",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s4",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s4",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s4",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s4",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s4",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s4",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s5",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s5",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s5",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s5",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s5",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s5",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s6",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s6",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s6",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s6",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s6",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s6",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s7",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s7",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s7",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s7",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s7",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s7",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s8",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s8",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s8",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s8",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s8",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s8",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s9",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s9",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s9",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s9",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s9",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s9",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s10",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s10",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s10",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s10",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s10",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s10",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s11",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s11",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s11",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s11",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s11",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s11",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s12",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s12",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s12",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s12",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s12",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s12",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s13",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s13",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s13",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s13",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s13",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s13",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s14",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s14",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s14",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s14",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s14",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s14",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s15",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s15",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s15",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s15",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s15",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s15",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s16",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s16",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s16",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s16",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s16",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s16",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s17",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s17",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s17",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s17",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s17",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s17",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s18",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s18",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s18",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s18",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s18",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s18",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s19",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s19",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s19",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s19",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s19",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s19",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s20",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s20",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s20",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s20",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s20",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s20",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s21",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s21",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s21",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s21",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s21",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s21",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s22",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s22",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s22",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s22",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s22",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s22",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s23",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s23",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s23",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s23",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s23",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s23",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s24",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s24",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s24",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s24",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s24",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s24",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s25",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s25",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s25",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s25",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s25",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s25",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s26",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s26",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s26",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s26",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s26",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s26",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s27",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s27",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s27",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s27",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s27",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s27",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s28",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s28",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s28",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s28",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s28",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s28",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s29",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s29",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s29",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s29",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s29",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s29",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s30",
+      "subjectId": "alg",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s30",
+      "subjectId": "exp",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s30",
+      "subjectId": "fil",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s30",
+      "subjectId": "dec",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s30",
+      "subjectId": "mod",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    },
+    {
+      "studentId": "s30",
+      "subjectId": "lea",
+      "classesHeld": 0,
+      "absences": 0,
+      "lastAvaAccess": "2026-02-23",
+      "pendingActivities": 0,
+      "assessments": {},
+      "history": []
+    }
+  ],
+  "notifications": [],
+  "meta": {
+    "version": "5.0.0",
+    "datasetType": "synthetic-demo",
+    "description": "Turma fictícia completa para demonstração acadêmica do Alerta Evasão.",
+    "students": 30,
+    "subjects": 6
+  }
+}
